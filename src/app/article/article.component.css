@@ -1,0 +1,16 @@
+.wrap{
+  display: flex;
+
+}
+ul li{
+  list-style: none;
+}
+.right-box{
+  margin-left: 20px;
+}
+.left-box{
+  width: 100px;
+  text-align: center;
+  background-color: antiquewhite;
+  align-content: center;
+}

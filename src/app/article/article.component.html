@@ -1,0 +1,23 @@
+<div class="wrap">
+  <div class="left-box">
+    <div>
+      {{article.votes}}
+    </div>
+    <div>
+      Points
+    </div>
+  </div>
+  <div class="right-box">
+    <a class="link" href="{{article.link}}">
+      {{article.title}}
+    </a>
+    <ul >
+      <li (click)="voteUp()">
+          upvote
+      </li>
+      <li (click)="voteDown()">
+       downvote
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+.logo-bg{
+  width: 1028px;
+  height: 628px;
+  margin: 0 auto;
+  background-image: url("../../assets/img/login/flow.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
